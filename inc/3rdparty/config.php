@@ -10,7 +10,7 @@
 // always gets loaded anyway, you can simply specify
 // options you'd like to override in custom_config.php.
 // .....................................................
-
+global $options;
 // Create config object
 if (!isset($options)) $options = new stdClass();
 
